@@ -36,7 +36,7 @@ def home():
     
 
     st.write('## Source Code, Bugs, Feature Requests')
-    githublink = """<a href='https://github.com/ghallab1907/cairoquicklog-CQL-"""
+    githublink = """<a href='https://github.com/ghallab1907/CQL-Streamlit-App-"""
    
     
     
