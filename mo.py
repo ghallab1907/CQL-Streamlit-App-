@@ -21,7 +21,7 @@ def header(las_file):
 
 def home():
 
-    st.title('Cairo quickLog(LAS Data Explorer)')
+    st.title('Cairo QuickLog(LAS Data Explorer)')
     st.write('## Welcome to my web app to Explore Your LAS file')
     st.write('### Created by Mahmoud Ragab')
     st.write('''LAS Data Explorer is a tool designed using Python and Streamlit to help you view and gain an understanding of the contents of
