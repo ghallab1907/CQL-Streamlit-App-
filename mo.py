@@ -36,9 +36,9 @@ def home():
     
 
     st.write('## Source Code, Bugs, Feature Requests')
-    githublink = """<a href='https://github.com/ghallab1907/CQL-Streamlit-App-"""
-   
-    
+    st.write('**My Github :** https://github.com/ghallab1907/CQL-Streamlit-App-')
+    st.write('**My LinkedIn :** https://www.linkedin.com/in/mahmoud-ragab-ba05631a0/')
+
     
     
         
@@ -139,7 +139,7 @@ def raw_data(las_file, well_data):
     else:
         st.write('**Curve Information**')
         for count, curve in enumerate(las_file.curves):
-            # st.write(f"<b>Curve:</b> {curve.mnemonic}, <b>Units: </b>{curve.unit}, <b>Description:</b> {curve.descr}", unsafe_allow_html=True)
+            st.write(f"<b>Curve:</b> {curve.mnemonic}, <b>Units: </b>{curve.unit}, <b>Description:</b> {curve.descr}", unsafe_allow_html=True)
             st.write(f"   {curve.mnemonic} ({curve.unit}): {curve.descr}", unsafe_allow_html=True)
         st.write(f"<b>There are a total of: {count+1} curves present within this file</b>", unsafe_allow_html=True)
         
@@ -183,8 +183,7 @@ def missing(las_file, well_data):
 
         selection = col1_md.radio('Select all data or custom selection', ('All Data', 'Custom Selection'))
         fill_color_md = col2_md.color_picker('Select Fill Colour', '#9D0000')
-        #top_depth = col3_md.number_input('Top Depth', step=50.0, value=min_depth, min_value=min_depth, max_value=max_depth)
-        #bottom_depth = col4_md.number_input('Bottom Depth', step=50.0, value=max_depth, min_value=min_depth, max_value=max_depth)
+        
 
         if selection == 'All Data':
             curves = columns
