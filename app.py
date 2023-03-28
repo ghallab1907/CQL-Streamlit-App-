@@ -47,7 +47,7 @@ def missing_data():
 
 # Sidebar Options & File Uplaod
 las_file = None
-st.sidebar.write('# LAS Data Explorer')
+st.sidebar.write('# Cairo QuickLog')
 st.sidebar.write('To begin using the app, load your LAS file using the file upload option below.')
 
 uploadedfile = st.sidebar.file_uploader(' ', type=['.las'])
