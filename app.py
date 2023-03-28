@@ -11,11 +11,8 @@ from mo import raw_data
 from mo import plot
 from mo import header
 from mo import missing
-#from mo import calculation
-
 from io import StringIO
 
-#local_css("style.css")
 
 
 @st.cache_data
