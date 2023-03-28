@@ -35,7 +35,7 @@ def home():
     st.write('**Missing Data Visualisation:** Visualisation tools understand data extent and identify areas of missing values.')
     
 
-    st.write('## Source Code, Bugs, Feature Requests')
+    st.write('## Source Code & contact')
     st.write('**My Github :** https://github.com/ghallab1907/CQL-Streamlit-App-')
     st.write('**My LinkedIn :** https://www.linkedin.com/in/mahmoud-ragab-ba05631a0/')
 
