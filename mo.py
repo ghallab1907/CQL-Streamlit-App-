@@ -24,7 +24,7 @@ def home():
     st.title('Cairo QuickLog')
     st.write('## Welcome to my web app to Explore Your LAS file')
     st.write('### Created by Mahmoud Ragab')
-    st.write('''LAS Data Explorer is a tool designed using Python and Streamlit to help you view and gain an understanding of the contents of
+    st.write('''Cairo QuickLog is a tool designed using Python and Streamlit to help you view and gain an understanding of the contents of
     a LAS file.''')
     st.write('To begin using the app, load your LAS file using the file upload option on the sidebar. Once you have done this, you can navigate to the relevant tools using the Navigation menu.')
     st.write('\n')
